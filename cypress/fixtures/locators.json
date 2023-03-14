@@ -1,0 +1,18 @@
+{
+    "registerPage": {
+        "registerButton": ".nav-link",
+        "firstNameInput": "#first-name",
+        "lastNameInput": "#last-name",
+        "emailInput": "#email",
+        "passwordInput": "#password",
+        "passwordConfirmationInput": "#password-confirmation",
+        "tcCheckbox":":checkbox",
+        "submitButton": "button"
+    },
+    "commonFormElements": {
+        "navbarLink": ".nav-link",
+        "emailInput": "#email",
+        "passwordInput": "#password",
+        "submitButton": "button"
+    }
+}
