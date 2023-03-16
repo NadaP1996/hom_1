@@ -76,5 +76,3 @@ describe ("registration tests", () => {
         cy.url().should("not.contain", "/register")
     })
 
-
-});

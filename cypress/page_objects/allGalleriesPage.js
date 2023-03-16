@@ -1,10 +1,10 @@
 class AllGalleries {
-    get allGalleriesHeading() {
-      return cy.get("h1");
-    }
   
+    get allGalleriesHeading() {
+    return cy.get("h1");
+  }
     get searchInput() {
-      return cy.get("input");
+      return cy.get("input[aria-describedby='basic-addon2']");
     }
   
     get filterBtn() {
@@ -25,6 +25,18 @@ class AllGalleries {
   
     get singleGalleryHeading() {
       return this.singleGallery.find("h2");
+    }
+
+    get singleGalleryAuthor() {
+      return this.singleGallery.find("p");
+    }
+
+    get singleGalleryDate() {
+      return this.singleGallery.find("small");
+    }
+
+    get singleGalleryImage() {
+      return this.singleGallery.find("img");
     }
   
     search(searchTerm) {
