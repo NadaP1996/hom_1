@@ -50,8 +50,6 @@ createGallery.galleryTitleInput.type("IiiiiiiiiiiiiiiIiiiiiiiiiiiiiiIiiiiiiiiiii
         createGallery.createGalleryLink.click();
         createGallery.imageUrlInput.type("https://i.pinimg.com/736x/ef/2e/cc/ef2ecc64a00cf8a4284c4340f3c6ab9c--beautiful-nature-pictures-amazing-photos.jpg")
         createGallery.addImageBtn.click();
-        //createGallery.imageUrlInput.type("https://i.pinimg.com/736x/ef/2e/cc/ef2ecc64a00cf8a4284c4340f3c6ab9c--beautiful-nature-pictures-amazing-photos.jpg")
-        //createGallery.createGalleryUpBtn.click()
         createGallery.deleteGalleryUrlBtn.click()
     });
 
